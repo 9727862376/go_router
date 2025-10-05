@@ -14,13 +14,3 @@ This project demonstrates the **best practices** for:
 
 ---
 
-## 📸 Demo
-
-<p align="center">
-  <img src="assets/screenshots/navigation_flow.gif" width="400" alt="App Demo">
-</p>
-
----
-
-## 🧱 Project Architecture
-
