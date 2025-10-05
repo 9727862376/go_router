@@ -1,8 +1,12 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+  const HomePage({super.key, required this.userData, required this.phoneNo});
+  final String userData;
+  final String phoneNo;
 
   @override
   Widget build(BuildContext context) {
@@ -12,10 +16,20 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text("🎉 Welcome to Home Page!"),
-            const SizedBox(height: 20),
+            Text(
+              "🎉 Welcome to Home Page!\n userData : $userData \n phone : $phoneNo",
+            ),
+            SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () => context.go('/'),
+              onPressed: () => context.go(
+                '/',
+                extra: {
+                  "dummyCallback": () {
+                    log("hello my name is chintan hey hey hey");
+                  },
+                  "username": "Chintan S Khutwad",
+                },
+              ),
               child: const Text("Logout"),
             ),
           ],
