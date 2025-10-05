@@ -1,16 +1,26 @@
-# flutter_go_router_demo
+# 🧭 Flutter GoRouter Tutorial Demo
 
-A new Flutter project.
+A **Flutter demo project** that shows how to use **GoRouter** with **BLoC** and **GetIt** for clean architecture and scalable navigation management.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Overview
 
-A few resources to get you started if this is your first Flutter project:
+This project demonstrates the **best practices** for:
+- Using **GoRouter** for declarative navigation.
+- Managing **state** using the **BLoC** pattern.
+- Handling **dependency injection** with **GetIt**.
+- Maintaining a **clean architecture** with modular code organization.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Demo
+
+<p align="center">
+  <img src="assets/screenshots/navigation_flow.gif" width="400" alt="App Demo">
+</p>
+
+---
+
+## 🧱 Project Architecture
+
